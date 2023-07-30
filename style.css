@@ -2,7 +2,7 @@
     font-family: Inter;
 }
 .card-bg-grad{
-    background: linear-gradient(180deg, rgba(252, 171, 0, 0.35) 0%, #472920 100%), rgba(0, 0, 0, 0.70);
+    background: linear-gradient(180deg, rgba(209, 157, 47, 0.886) 0%, #472920 100%), rgba(0, 0, 0, 0.70);
 
 }
 .card-border{
@@ -10,19 +10,6 @@
     border-radius: 10px;
 }
 
-@layer utilities {
-  .svg-bg-left-top {
-    background-image: url('assets/top-left.svg');
-    background-position: top left;
-    background-repeat: no-repeat;
-  }
-
-  .svg-bg-right-top {
-    background-image: url('assets/top-right.svg');
-    background-position: top right;
-    background-repeat: no-repeat;
-  }
-}
 /* footer */
 .footer {
   width: 100%;
