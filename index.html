@@ -113,7 +113,7 @@
                                 class="text-[12px] leading-[20px] font-[600] relative flex justify-center items-center border border-[#FCAB00] p-[7px_9px_7px_9px] rounded-[300px]">
                                 <div class="flex items-center gap-[6px] cursor-pointer"
                                     onclick="hideCurrencyMenuMobile()">
-                                    <img src="./assets/Home/dollar.png" alt="dollar" />
+                                    <img src="./assets/dollar.png" alt="dollar" />
                                     <div class="flex items-center gap-[6px]">
                                         <span class="" id="currencyMobile">USD</span>
                                         <i class="fa-solid fa-chevron-down relative top-[1px]"></i>
@@ -183,7 +183,8 @@
             <div class="w-[calc(100vw-48px)] lg:w-[calc(100vw-200px)] mx-auto lg:flex items-center justify-between">
                 <div class="text-white lg:w-3/4">
                     <h1 class="text-[46px] font-bold pt-14 lg:pt-0">Welcome to the OSRS Wiki!</h1>
-                    <p class="mt-8">We are the official Old School RuneScape encyclopaedia, written and maintained by the
+                    <p class="mt-8">We are the official Old School RuneScape encyclopaedia, written and maintained by
+                        the
                         players. Since our start on 14 February 2013, we've been the go-to destination for all things
                         Old
                         School.</p>
@@ -371,82 +372,106 @@
                         </div>
                         <h4
                             class="uppercase text-[12px] font-[700] text-center py-[15px] bg-[#6726AA] rounded-b-[12px]">
-                            Official Wiki instagram</h4>
+                            Official Wiki Thread</h4>
                     </div>
-
-                    <!-- Image Cards -->
-                    <div class="h-[280px] lg:h-[300px] p-2"
-                        style="background-image: url('./assets/deal-background-large.png.png'); background-repeat: no-repeat; background-size: cover; background-position: center;">
-                        <div class="h-1/3 flex flex-col items-center justify-center">
-                            <p class="text-[#FFE86E] shadow-md text-[24px]">Deal of the Day</p>
-                            <p class="text-[#FFE86E] shadow-md text-[24px]">25% <span class="text-[30px]">Off</span></p>
-                        </div>
-                        <div class="h-2/3 card-bg-grad border-2 border-[#ffab004d] rounded-xl flex items-center">
-                            <div class="lg:w-3/5 text-white p-3">
-                                <h4 class="text-[16px] font-[700]">Atlantis Armour Pack</h4>
-                                <p class="text-[14px] text-[#ffffffaf]">Ends in 10 hours</p>
-                                <p class="text-[15px] text-[#ffffffaf] mt-6">Atlantis Armour Pack
-                                    discounted to 630
-                                    Points (TODAY
-                                    ONLY)</p>
+                    <!-- Image Cards card-bg-grad border-2 border-[#ffab004d] -->
+                    <div class="mt-9">
+                        <div class="relative h-[300px] mb-4">
+                            <div class="absolute top-3 left-1/2 -translate-x-1/2 text-[#FFE86E] text-center">
+                                <h2 class="text-2xl font-normal">Deal of Day</h2>
+                                <p class="text-2xl">
+                                    <span>25%</span>
+                                    <span class="text-4xl font-medium">Off</span>
+                                </p>
                             </div>
-                            <div class="w-2/4 relative">
-                                <div class="flex justify-center items-center">
-                                    <img class="h-[158px] lg:h-[178px]" src="assets/AtlantisArmourSet.png.png" alt="">
-
-                                    <button class="absolute w-[60px] lg:w-[90px] bottom-4 lg:bottom-8"><img
-                                            src="assets/Link.png" alt=""></button>
+                            <img class="w-full h-full" src="assets/deal-background.png" alt="" />
+                            <div
+                                class="absolute rounded-xl bottom-2 left-1/2 -translate-x-1/2 border-2 border-[#ffab004d] w-[96%] h-2/3 card-bg-grad">
+                                <div class="grid grid-cols-2 lg:gap-3 justify-between items-center">
+                                    <div class="p-3 lg:p-6">
+                                        <h2 class="text-sm lg:text-[16px] font-bold text-white">
+                                            Atlantis Armour Pack
+                                        </h2>
+                                        <p class="text-sm lg:text-[15px] font-normal text-white">
+                                            Ends in 10 hours
+                                        </p>
+                                        <p class="text-xs lg:text-[15px] font-normal text-white mt-5">
+                                            Atlantis Armour Pack discounted to 630 Points (TODAY
+                                            ONLY)
+                                        </p>
+                                    </div>
+                                    <div class="p-2 relative">
+                                        <img class="m-auto" src="assets/AtlantisArmourSet.png.png" alt="" />
+                                        <button class="absolute bottom-14 left-1/2 -translate-x-1/2">
+                                            <img src="./assets/Link.png" alt="" />
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="h-[280px] lg:h-[300px] w-full p-2 mt-5"
-                        style="background-image: url('./assets/deal-background-large.png.png'); background-repeat: no-repeat; background-size: cover; background-position: center;">
-                        <div class="h-1/3 flex flex-col items-center justify-center">
-                            <p class="text-[#FFE86E] shadow-md text-[24px]">Deal of the Day</p>
-                            <p class="text-[#FFE86E] shadow-md text-[24px]">25% <span class="text-[30px]">Off</span></p>
-                        </div>
-                        <div class="h-2/3 card-bg-grad border-2 border-[#ffab004d] rounded-xl flex items-center">
-                            <div class="lg:w-3/5 text-white p-3">
-                                <h4 class="text-[16px] font-[700]">Siren Flame Dash Effect</h4>
-                                <p class="text-[14px] text-[#ffffffaf]">Ends in 10 hours</p>
-                                <p class="text-[15px] text-[#ffffffaf] mt-6">Siren Flame Dash
-                                    Effect discounted to
-                                    80 Points (TODAY
-                                    ONLY)</p>
+                        <div class="relative h-[300px] mb-4">
+                            <div class="absolute top-3 left-1/2 -translate-x-1/2 text-[#FFE86E] text-center">
+                                <h2 class="text-2xl font-normal">Deal of Day</h2>
+                                <p class="text-2xl">
+                                    <span>25%</span>
+                                    <span class="text-4xl font-medium">Off</span>
+                                </p>
                             </div>
-                            <div class="w-2/4 relative">
-                                <div class="flex justify-center items-center">
-                                    <img class="h-[158px] lg:h-[178px]" src="assets/SirenFlamedashEffect.png.png"
-                                        alt="">
-
-                                    <button class="absolute w-[60px] lg:w-[90px] bottom-4 lg:bottom-8"><img
-                                            src="assets/Link.png" alt=""></button>
+                            <img class="w-full h-full" src="./assets/deal-background.png" alt="" />
+                            <div
+                                class="absolute rounded-xl bottom-2 left-1/2 -translate-x-1/2 card-bg-grad border-2 border-[#ffab004d] w-[96%] h-2/3">
+                                <div class="grid grid-cols-2 lg:gap-3 justify-between items-center">
+                                    <div class="p-3 lg:p-6">
+                                        <h2 class="text-sm lg:text-[16px] font-bold text-white">
+                                            Siren Flame Dash Effect
+                                        </h2>
+                                        <p class="text-sm lg:text-[15px] font-normal text-white">
+                                            Ends in 10 hours
+                                        </p>
+                                        <p class="text-xs lg:text-[15px] font-normal text-white mt-5">
+                                            Sirem Flame Dash Effect discounted to 80 Points (TODAY
+                                            ONLY)
+                                        </p>
+                                    </div>
+                                    <div class="p-2 lg:p-6 relative">
+                                        <img class="m-auto" src="./assets/SirenFlamedashEffect.png" alt="" />
+                                        <button class="absolute bottom-10 left-1/2 -translate-x-1/2">
+                                            <img src="./assets/Link.png" alt="" />
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="h-[280px] lg:h-[300px] w-full p-2 mt-7"
-                        style="background-image: url('./assets/deal-background-large.png.png'); background-repeat: no-repeat; background-size: cover; background-position: center;">
-                        <div class="h-1/3 flex flex-col items-center justify-center">
-                            <p class="text-[#FFE86E] shadow-md text-[24px]">Deal of the Day</p>
-                            <p class="text-[#FFE86E] shadow-md text-[24px]">25% <span class="text-[30px]">Off</span></p>
-                        </div>
-                        <div class="h-2/3 card-bg-grad border-2 border-[#ffab004d] rounded-xl flex items-center">
-                            <div class="lg:w-3/5 text-white p-3">
-                                <h4 class="text-[16px] font-[700]">Siren Pegasus Pet</h4>
-                                <p class="text-[14px] text-[#ffffffaf]">Ends in 10 hours</p>
-                                <p class="text-[15px] text-[#ffffffaf] mt-6">Siren Pegasus Pet
-                                    discounted to 120
-                                    Points (TODAY
-                                    ONLY)</p>
+                        <div class="relative h-[300px] mb-4">
+                            <div class="absolute top-3 left-1/2 -translate-x-1/2 text-[#FFE86E] text-center">
+                                <h2 class="text-2xl font-normal">Deal of Day</h2>
+                                <p class="text-2xl">
+                                    <span>25%</span>
+                                    <span class="text-4xl font-medium">Off</span>
+                                </p>
                             </div>
-                            <div class="w-2/4 relative">
-                                <div class="flex justify-center items-center">
-                                    <img class="h-[158px] lg:h-[178px]" src="assets/SirenPegasusPet.png.png" alt="">
-
-                                    <button class="absolute w-[60px] lg:w-[90px] bottom-4 lg:bottom-8"><img
-                                            src="assets/Link.png" alt=""></button>
+                            <img class="w-full h-full" src="./assets/deal-background.png" alt="" />
+                            <div
+                                class="absolute rounded-xl bottom-2 left-1/2 -translate-x-1/2 card-bg-grad border-2 border-[#ffab004d] w-[96%] h-2/3">
+                                <div class="grid grid-cols-2 lg:gap-3 justify-between items-center">
+                                    <div class="p-3 lg:p-6">
+                                        <h2 class="text-sm lg:text-[16px] font-bold text-white">
+                                            Siren Pegasus Pet
+                                        </h2>
+                                        <p class="text-sm lg:text-[15px] font-normal text-white">
+                                            Ends in 10 hours
+                                        </p>
+                                        <p class="text-xs lg:text-[15px] font-normal text-white mt-5">
+                                            Siren Pegasus Pet discounted to 120 Points (TODAY
+                                            ONLY)
+                                        </p>
+                                    </div>
+                                    <div class="p-2 lg:p-6 relative">
+                                        <img class="m-auto" src="./assets/SirenPegasusPet.png" alt="" />
+                                        <button class="absolute bottom-8 left-1/2 -translate-x-1/2">
+                                            <img src="./assets/Link.png" alt="" />
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -542,6 +567,13 @@
         openMenuButton.addEventListener("click", () => {
             menuList.classList.toggle("hidden");
         });
+
+        const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        mobileMenuToggle.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
         // Selecting the currency
         function selectCurrency(currency) {
             const currencyElement = document.getElementById("currency");
@@ -564,6 +596,7 @@
             const currencyMenu = document.getElementById("currencyMenuMobile");
             currencyMenu.classList.toggle("hidden");
         }
+
     </script>
 
 </body>
